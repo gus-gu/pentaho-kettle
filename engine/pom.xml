@@ -933,7 +933,7 @@
     <dependency>
       <groupId>jaxen</groupId>
       <artifactId>jaxen</artifactId>
-      <scope>test</scope>
+     <!--comment by gumao because class can not load <scope>test</scope> -->
     </dependency>
     <dependency>
       <groupId>org.powermock</groupId>
